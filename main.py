@@ -52,7 +52,7 @@ __my_var = 30
 # you should not invent your __var__
 # there are many duner variables in Python
 
-__init__():
+#__init__():
 
 # package names should be all lover case letters: utilities
 # for modules you can you _ : db_utils
@@ -63,5 +63,11 @@ __init__():
 
 # for more info on code style see PEP8
 
+# Ternary operator
+# format: [on_true] if [expression] else [on_false]
 
+a = 30
+b = 20
+min = a if a < b else b
+print(min)
 
