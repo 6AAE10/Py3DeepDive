@@ -71,3 +71,25 @@ b = 20
 min = a if a < b else b
 print(min)
 
+# Functions
+# built in functions, len(s)
+# some functions need to be imported: from math import sqrt
+# we can define our own functions
+# to call the function you need to call it with parentheses func_name()
+# you can add annotation to function parameters
+
+
+def my_func(a: int, b: int):
+    return a * b
+
+# lambda
+# lambda is a function without name
+# lambda x: x**2
+
+
+fn1 = lambda x: x**2
+print(fn1(2))
+
+
+
+
