@@ -91,5 +91,31 @@ fn1 = lambda x: x**2
 print(fn1(2))
 
 
+# while loop
 
+# min_length = 2
+# while True:
+#     name = input('Please, input your name:')
+#     if len(name) >= min_length and name.isprintable() and name.isalpha():
+#         break
+# print('Hello, ', name)
+
+# break - stops current iteration of the loop
+# continue - starts the loop from the beginning, skipping all other code after the continue
+# didn't know that while loop has else condition.
+# the code in else is executed only when while loop ends normally
+
+# try ... except ... finally
+#
+# finally always runs, no matter if there is an exception or not
+
+a = 10
+b = -2
+
+try:
+    print(a/b)
+except ZeroDivisionError:
+    print("you can't devide to Zero")
+finally:
+    print("this line will always be printed")
 
